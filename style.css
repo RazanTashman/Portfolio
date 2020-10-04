@@ -1,0 +1,18 @@
+form {
+	margin: 100px;
+}
+#avatar {
+	position: inline-block;
+	top:200px;
+}
+#experience {
+	position: inline-block;
+	justify-content: center;
+	margin-top: -150px;
+	margin-left: 400px;
+}
+#sliderVlue{
+justify-content: center;
+margin-left: 400px;
+margin-top: -22px;
+}
