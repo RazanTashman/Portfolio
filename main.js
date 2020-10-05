@@ -31,11 +31,11 @@ $( document ).ready(function() {
 
      $.each(skillsArray, function(i,item){
         table = $("<tr></tr>")
-       data = $("<td>"+item+"</td>")
+       data = $("<td>"+item+"</td><br>")
             $("tr").append(data)
            
                for (var count = 0; count < starsArray[i] ; count++){
-                $("tr").append("<img id='theImg' src='stars.png' width='20px' height='20px'/> ");
+                $("tr").append("<img id='theImg' src='stars.png' width='40px' height='40px'/> ");
                 
                }
           })

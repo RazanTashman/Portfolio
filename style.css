@@ -67,6 +67,17 @@ label #textareaLable{
   margin-left:100px;
 }
 /********************************************************************/
+/*#template{
+text-align: center; 
+}
+*/
+#text{
+	color: white;
+font-family: "Lucida Console", Courier, monospace;
+	font: bold;
+	font-size: x-large;
+}
+
 
 #wlc{
 	color: white;
@@ -80,19 +91,59 @@ label #textareaLable{
 	color: white;
 	font-family: "Lucida Console", Courier, monospace;
 	font: bold;
-	font-size: 90px;
+	font-size: 20px;
+
 }
+
+#whoIam{
+	color: white;
+	font-family: "Lucida Console", Courier, monospace;
+	font: bold;
+	font-size: 40px;
+
+
+}
+#telMe{
+	position: absolute;
+	left:250px;
+	top:150px;
+}
+
 
 #avatar {
 	position: inline-block;
 	top:200px;
 }
 #experience {
+	color: white;
+	font-size: large;
 	position: inline-block;
 	justify-content: center;
-	margin-top: -150px;
-	margin-left: 400px;
+	margin-top: 110px;
+	margin-left: 40px;
 }
+
+footer{
+	/*margin-top: 400px;*/
+	   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #ccc;
+   color: white;
+   text-align: center;
+}
+
+.awesome{
+width: 50px;
+height: 50px;
+}
+
+tr{
+color: white;
+	font-size: 40px;
+}
+
 #sliderVlue{
 justify-content: center;
 margin-left: 400px;
