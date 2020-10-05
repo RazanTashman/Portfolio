@@ -31,9 +31,11 @@ $( document ).ready(function() {
 
      $.each(skillsArray, function(i,item){
         table = $("<tr></tr>")
-       data = $("<td>"+item+"</td><br>")
-            $("tr").append(data)
-           
+       data = $("<td>"+item+"</td>")
+            $("tr").append(data); 
+
+           var breakLi=$("<br/>")
+           $("tr").append(breakLi)
                for (var count = 0; count < starsArray[i] ; count++){
                 $("tr").append("<img id='theImg' src='stars.png' width='40px' height='40px'/> ");
                 

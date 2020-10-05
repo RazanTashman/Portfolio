@@ -105,22 +105,23 @@ font-family: "Lucida Console", Courier, monospace;
 }
 #telMe{
 	position: absolute;
-	left:250px;
-	top:150px;
+	left:270px;
+	top:210px;
 }
 
 
 #avatar {
-	position: inline-block;
-	top:200px;
+position: absolute;
+	left:30px;
+	top:210px;
 }
 #experience {
 	color: white;
 	font-size: large;
 	position: inline-block;
 	justify-content: center;
-	margin-top: 110px;
-	margin-left: 40px;
+	margin-top: 220px;
+	margin-left: 280px;
 }
 
 footer{
