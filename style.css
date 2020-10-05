@@ -72,7 +72,12 @@ text-align: center;
 }
 */
 #text{
-	color: white;
+	/*border: 2px solid #9C908E;*/
+	  border-radius: 5px;
+  background-color: #f2f2f2;
+	color: #4A4241;
+	/*background-image: url("cover.jpg");
+	 background-size: cover;*/
 font-family: "Lucida Console", Courier, monospace;
 	font: bold;
 	font-size: x-large;
@@ -80,7 +85,7 @@ font-family: "Lucida Console", Courier, monospace;
 
 
 #wlc{
-	color: white;
+	color: #4A4241;
 	font-family: "Lucida Console", Courier, monospace;
 	font: bold;
 	font-size: 20px;
@@ -151,12 +156,12 @@ margin-left: 400px;
 margin-top: -22px;
 }
 
-#icon{
-justify-content: center;
-margin-left: 450px;
-margin-top: -22px;
-}
+/*.cover{
 
+background-color: gray;
+
+}
+*/
 /*td{
 justify-content: space-around;
 }

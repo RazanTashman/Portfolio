@@ -15,11 +15,11 @@ $( document ).ready(function() {
   $("#template").show();
 
   var fname = $("#fname").val();
-  var name = $("<h1>"+fname+"</h1>");
+  var name = $("<h1 class ='cover'>"+fname+"</h1>");
   $("#text").append(name);
 
   var field = $("#position").val();
-  var position = $("<h3>"+field+"</h3>");
+  var position = $("<h3 class ='cover'>"+field+"</h3>");
   $("#text").append(position);
 
   var about = $("#about").val();
