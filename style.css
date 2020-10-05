@@ -1,7 +1,88 @@
-
-form {
-	margin: 100px;
+#body{
+background-color:  #4A4241 ;
+opacity:1;
 }
+
+form{
+/*background: #4A4241 ;
+opacity:1;*/
+text-align: center;
+	color: #F2671C;
+	font-family: "Lucida Console", Courier, monospace;
+	font: bold;
+	font-size: x-large;
+
+	  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+	margin:100px;
+	box-shadow: 5px 10px 18px #F2671C;
+	position: absolute;
+	left:90px;
+	top:20px;
+}
+
+
+input {
+  width:50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea{
+ width: 400px;
+ height: 200px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+button {
+  width: 13%;
+  background-color: #F2671C;
+  color: white;
+  	font-family: "Lucida Console", Courier, monospace;
+	font-size: x-large;
+  text-align: center;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #FF5900 ;
+}
+
+label #textareaLable{
+/*position: absolute;
+  left: 100px;
+  top: 220px;*/
+  margin-top: 100px;
+  margin-left:100px;
+}
+/********************************************************************/
+
+#wlc{
+	color: white;
+	font-family: "Lucida Console", Courier, monospace;
+	font: bold;
+	font-size: 20px;
+
+}
+
+#aboutMe {
+	color: white;
+	font-family: "Lucida Console", Courier, monospace;
+	font: bold;
+	font-size: 90px;
+}
+
 #avatar {
 	position: inline-block;
 	top:200px;
@@ -22,4 +103,8 @@ margin-top: -22px;
 justify-content: center;
 margin-left: 450px;
 margin-top: -22px;
+}
+
+/*td{
+justify-content: space-around;
 }

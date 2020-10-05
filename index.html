@@ -18,7 +18,7 @@
 
 
 </head>
-<body>
+<body id="body">
   <section id="form">
     <div id="part1">
 <form>
@@ -26,21 +26,21 @@
   <input id="fname" type="text" placeholder="First Name and Family Name"> <br><br>
   <label>Position</label>
   <input id="position" type="text" name="" placeholder="Your field"><br><br>
-  <label> About Me </label>
-  <textarea id="about" name="paragraph_text" cols="50" rows="10" placeholder="Tell us more about you"></textarea><br><br>
+  <label id ="textareaLable"> About Me </label>
+  <textarea id="about" name="paragraph_text"  ></textarea><br><br>
   <label>My Skills</label>
   <input type="text" id="skills" placeholder="Programming Language">
   <input type="range" min="0" max="5" value="0" class="slider" id="myRange">
   <p id ="sliderVlue"></p>
   <button id="add" type="button">Add</button><br><br>
   <label>GitHub Link</label>
-  <input type="text" placeholder="your profile link in GitHub"><br><br>
-  <label>LinkeIn link</label>
-  <input type="text" placeholder="your profile link in LinkeIn"><br><br>
+  <input id ="gitlink"type="text" placeholder="your profile link in GitHub"><br><br>
+  <label>LinkedIn link</label>
+  <input id="linkedInLink"type="text" placeholder="your profile link in LinkeIn"><br><br>
   <label>Phone Number</label>
-  <input type="Number" placeholder="Your mobile number" ><br><br>
+  <input id="phonNum"type="Number" placeholder="Your mobile number" ><br><br>
   <label>Email Address</label>
-  <input type="text" placeholder="Your Email" ><br><br>
+  <input id ="email"type="text" placeholder="Your Email" ><br><br>
     <button id="submit" type="button">Apply</button>
 </form>
 <div>
@@ -52,9 +52,9 @@
     <section id="template">
       <div id="part2">
       <div id="text">
-        <h3> Hello, My name is </h3>
+        <h3 id="wlc"> Hello, My name is </h3>
       </div>
-          <h3> About Me </h3>
+          <h3 id ="aboutMe"> About Me </h3>
           <h1> Who Am I </h1>
          <div class="row">
           <div class="column">
@@ -62,18 +62,33 @@
           </div>
           <div id="divabout" class="column"></div>
         </div>
+
+  
         <table>
-          <tr></tr>
+          <tr></tr><br>
         </table>
+        <!-- <p id = "stars" > <span></span> </p> -->
       </div>
-      
+
+      <footer>
+     <a  id = "github" target="_blank" ><i class="fab fa-github-square"></i></i></a>
+     <a  id = "linkeIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+     <a id="mobile" href=""><i class="fas fa-phone-square"></i></a> <!-- tel:98883-->
+     <a id="mailto"><i class="fas fa-envelope-square"></i></a>
+    </footer>
+
     </section>
     <script>
+      var starsArray=[]
       var slider = document.getElementById("myRange");
       var output = document.getElementById("sliderVlue");
       output.innerHTML = slider.value;
       slider.oninput = function() {
         output.innerHTML = this.value;
+         starsArray.push( parseInt(this.value));
+         console.log(this.value,starsArray)
+
+          
       }
       // document.getElementById("myRange").setAttribute("value","0");
     </script>
